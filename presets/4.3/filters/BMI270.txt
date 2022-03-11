@@ -1,7 +1,7 @@
 #$ TITLE: 4.3 Filter settings for BMI270 gyroscope
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: OFFICIAL
 #$ KEYWORDS: BMI270, filter, filters, gyroscope, gyro, gyros, settings, RPM
 #$ AUTHOR: DusKing1 (Hugo Chiang), Pitronic
 #$ DESCRIPTION: These settings are for BMI270 gyroscope only.

@@ -17,16 +17,16 @@
       "OTHER": "OTHER"
     },
     "PresetCategoriesPriorities": {
-      "TUNE": 1000000000000,
-      "RATES": 10000,
+      "TUNE": 0,
+      "RATES": 0,
       "OSD": 0,
-      "VTX": 1000000,
+      "VTX": 0,
       "LEDS": 0,
       "MODES": 0,
-      "RC_SMOOTHING": 100000000,
+      "RC_SMOOTHING": 0,
       "FILTERS": 100,
-      "RC_LINK": 10000000000,
-      "TARGET": 0,
+      "RC_LINK": 0,
+      "TARGET": 1000000000000,
       "OTHER": 0
     },
     "MetadataTypes": {
@@ -182,6 +182,7 @@
       "disable",
       "DJI",
       "dual",
+      "Dual BMI270",
       "ELRS",
       "express",
       "FC",
@@ -196,6 +197,7 @@
       "gyro",
       "gyros",
       "gyroscope",
+      "H7",
       "hd",
       "HD_freestyle",
       "ICM20689",
@@ -245,13 +247,13 @@
   "presets": [
     {
       "fullPath": "presets/4.3/filters/BMI270.txt",
-      "hash": "af69e3c94ef3dcdd2fca5906292a0dbcf4e4ac1cf74a35860d379cd9e5436c4f",
+      "hash": "3290285e13af896aa36f43cb4a860dc7c870f8c336cd96d69bad7178af4f38ed",
       "title": "4.3 Filter settings for BMI270 gyroscope",
       "firmware_version": [
         "4.3"
       ],
       "category": "FILTERS",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "BMI270",
         "filter",
@@ -267,13 +269,13 @@
     },
     {
       "fullPath": "presets/4.3/filters/BMI270_dual.txt",
-      "hash": "9a33f16483824bd26cabd1ffc2004f2fbf480cd981b4495340987c1a674e1e93",
+      "hash": "f22294f9d45acb83655de8647cf5d0a3f386f98670271a4ab6ab39da72dbdcac",
       "title": "4.3 Filter settings for dual BMI270 gyroscope",
       "firmware_version": [
         "4.3"
       ],
       "category": "FILTERS",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "BMI270",
         "filter",
@@ -542,7 +544,7 @@
         "freestyle"
       ],
       "author": "Alex Vanover",
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
@@ -581,7 +583,7 @@
       ],
       "author": "UAV Tech (Mark Spatz)",
       "force_options_review": true,
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/DJI_SBUS_Fast.txt",
@@ -600,7 +602,7 @@
       ],
       "author": "UAV Tech (Mark Spatz)",
       "force_options_review": true,
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_150hz.txt",
@@ -620,7 +622,7 @@
         "express"
       ],
       "author": "ctzsnooze",
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
@@ -639,7 +641,7 @@
         "express"
       ],
       "author": "ctzsnooze",
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_500hz.txt",
@@ -658,7 +660,7 @@
         "express"
       ],
       "author": "ctzsnooze",
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_50hz.txt",
@@ -678,7 +680,7 @@
         "express"
       ],
       "author": "ctzsnooze",
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/frsky_sbus.txt",
@@ -696,7 +698,7 @@
         "link"
       ],
       "author": "ctzsnooze",
-      "priority": 10000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_link/reset_to_defaults.txt",
@@ -735,7 +737,7 @@
         "hd"
       ],
       "author": "ctzsnooze",
-      "priority": 100000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
@@ -773,7 +775,7 @@
         "jitter"
       ],
       "author": "ctzsnooze",
-      "priority": 100000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/hd_freestyle.txt",
@@ -796,7 +798,7 @@
         "jitter"
       ],
       "author": "ctzsnooze",
-      "priority": 100000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/race.txt",
@@ -816,17 +818,17 @@
         "jitter"
       ],
       "author": "ctzsnooze",
-      "priority": 100000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/target/NeutronRCF407.txt",
-      "hash": "11a85d20f328bf0e30528e34c6db76298507e8c3fd09a9212f1a05deac780495",
+      "hash": "bfbf8dabb5c42de6362221971fd9f0eddf1b73dce57fb323c4aa7aa459fc8942",
       "title": "NERC-F407 target config",
       "firmware_version": [
         "4.3"
       ],
       "category": "TARGET",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "￥99",
         "￥109",
@@ -837,7 +839,25 @@
         "target"
       ],
       "author": "NeutronRC, DusKing1 (Hugo Chiang)",
-      "priority": 0
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/target/NeutronRCH7BT.txt",
+      "hash": "ad8f76dcfaf6fee27b0022d42fa68ca82e9b449db7dbf2d49d606aaf5c96dae1",
+      "title": "NERC-H7BT target config",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TARGET",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Dual BMI270",
+        "FC",
+        "H7",
+        "target"
+      ],
+      "author": "NeutronRC, DusKing1 (Hugo Chiang)",
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
@@ -875,7 +895,7 @@
         "vtx"
       ],
       "author": "Betaflight",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
@@ -894,7 +914,7 @@
         "vtxtable"
       ],
       "author": "Betaflight",
-      "priority": 1000000
+      "priority": 0
     }
   ]
 }

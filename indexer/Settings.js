@@ -31,16 +31,16 @@ const PresetCategories = {
 }
 
 const PresetCategoriesPriorities = {
-    TUNE:           10**12,
-    RATES:          10**4,
+    TUNE:           0,
+    RATES:          0,
     OSD:            0,
-    VTX:            10**6,
+    VTX:            0,
     LEDS:           0,
     MODES:          0,
-    RC_SMOOTHING:   10**8,
+    RC_SMOOTHING:   0,
     FILTERS:        10**2,
-    RC_LINK:        10**10,
-    TARGET:         0,
+    RC_LINK:        0,
+    TARGET:         10**12,
     OTHER:          0,
 }
 

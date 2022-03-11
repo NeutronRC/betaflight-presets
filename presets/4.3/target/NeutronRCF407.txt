@@ -1,7 +1,7 @@
 #$ TITLE: NERC-F407 target config
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TARGET
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: OFFICIAL
 #$ KEYWORDS: ￥99, ￥109, ICM20689, MPU6000, BMI270, FC, target
 #$ AUTHOR: NeutronRC, DusKing1 (Hugo Chiang)
 
@@ -10,10 +10,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Unified Target Config for NeutronRCF407 FC
 #$ DESCRIPTION: 
-#$ DESCRIPTION: This is the unified target settings for NeutronRCF407 FC, can only be used on NeutronRCF407 FC.
-#$ DESCRIPTION: If you want to apply this setting on other flight controllers, please bear the risks and consequences at your own risk, 
-#$ DESCRIPTION: including but not limited to:
-#$ DESCRIPTION:
+#$ DESCRIPTION: This is the unified target settings for NeutronRCF407 FC, can only be used on NeutronRCF407 FC. If you want to apply this setting on other flight controllers, please bear the risks and consequences at your own risk, including but not limited to:
 #$ DESCRIPTION: 1.  Cause the flight control to become bricked
 #$ DESCRIPTION: 2.  Cause the flight controller to burn
 #$ DESCRIPTION: 3.  Causes the motor to unlock unexpectedly and cause bloodshed
