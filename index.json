@@ -1,0 +1,900 @@
+{
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "settings": {
+    "MetapropertyDirective": "#$",
+    "PresetCategories": {
+      "TUNE": "TUNE",
+      "RATES": "RATES",
+      "OSD": "OSD",
+      "VTX": "VTX",
+      "LEDS": "LEDS",
+      "MODES": "MODES",
+      "RC_SMOOTHING": "RC_SMOOTHING",
+      "FILTERS": "FILTERS",
+      "RC_LINK": "RC_LINK",
+      "TARGET": "TARGET",
+      "OTHER": "OTHER"
+    },
+    "PresetCategoriesPriorities": {
+      "TUNE": 1000000000000,
+      "RATES": 10000,
+      "OSD": 0,
+      "VTX": 1000000,
+      "LEDS": 0,
+      "MODES": 0,
+      "RC_SMOOTHING": 100000000,
+      "FILTERS": 100,
+      "RC_LINK": 10000000000,
+      "TARGET": 0,
+      "OTHER": 0
+    },
+    "MetadataTypes": {
+      "STRING": "STRING",
+      "STRING_ARRAY": "STRING_ARRAY",
+      "PRESET_CATEGORY": "PRESET_CATEGORY",
+      "FILE_PATH": "FILE_PATH",
+      "BOOLEAN": "BOOLEAN",
+      "WORDS_ARRAY": "WORDS_ARRAY",
+      "FILE_PATH_ARRAY": "FILE_PATH_ARRAY",
+      "PRESET_STATUS": "PRESET_STATUS",
+      "PRIORITY": "PRIORITY",
+      "PARSER": "PARSER"
+    },
+    "OptionsDirectives": {
+      "OPTION_DIRECTIVE": "option",
+      "BEGIN_OPTION_DIRECTIVE": "option begin",
+      "END_OPTION_DIRECTIVE": "option end",
+      "OPTION_CHECKED": "(checked)",
+      "OPTION_UNCHECKED": "(unchecked)",
+      "BEGIN_OPTION_GROUP_DIRECTIVE": "option_group begin",
+      "END_OPTION_GROUP_DIRECTIVE": "option_group end"
+    },
+    "PresetStatusEnum": [
+      "OFFICIAL",
+      "COMMUNITY",
+      "EXPERIMENTAL"
+    ],
+    "ParserEnum": [
+      "TEXT",
+      "MARKED"
+    ],
+    "presetsDir": "presets",
+    "presetsFileEncoding": "utf-8",
+    "presetsFileMetadata": {
+      "title": {
+        "type": "STRING",
+        "optional": false
+      },
+      "firmware_version": {
+        "type": "STRING_ARRAY",
+        "optional": false
+      },
+      "category": {
+        "type": "PRESET_CATEGORY",
+        "optional": false
+      },
+      "status": {
+        "type": "PRESET_STATUS",
+        "optional": false
+      },
+      "author": {
+        "type": "STRING",
+        "optional": true
+      },
+      "description": {
+        "type": "STRING_ARRAY",
+        "optional": true
+      },
+      "include": {
+        "type": "FILE_PATH_ARRAY",
+        "optional": true
+      },
+      "keywords": {
+        "type": "WORDS_ARRAY",
+        "optional": true
+      },
+      "hidden": {
+        "type": "BOOLEAN",
+        "optional": true
+      },
+      "discussion": {
+        "type": "STRING",
+        "optional": true
+      },
+      "warning": {
+        "type": "STRING",
+        "optional": true
+      },
+      "disclaimer": {
+        "type": "STRING",
+        "optional": true
+      },
+      "include_warning": {
+        "type": "FILE_PATH_ARRAY",
+        "optional": true
+      },
+      "include_disclaimer": {
+        "type": "FILE_PATH_ARRAY",
+        "optional": true
+      },
+      "priority": {
+        "type": "PRIORITY",
+        "optional": true
+      },
+      "force_options_review": {
+        "type": "BOOLEAN",
+        "optional": true
+      },
+      "parser": {
+        "type": "PARSER",
+        "optional": true
+      }
+    }
+  },
+  "uniqueValues": {
+    "firmware_version": [
+      "4.3"
+    ],
+    "category": [
+      "FILTERS",
+      "LEDS",
+      "MODES",
+      "OSD",
+      "OTHER",
+      "RATES",
+      "RC_LINK",
+      "RC_SMOOTHING",
+      "TARGET",
+      "TUNE",
+      "VTX"
+    ],
+    "author": [
+      "Alex Vanover",
+      "Betaflight",
+      "ctzsnooze",
+      "DusKing1 (Hugo Chiang), Pitronic",
+      "NeutronRC, DusKing1 (Hugo Chiang)",
+      "sugarK",
+      "UAV Tech (Mark Spatz)"
+    ],
+    "keywords": [
+      "￥109",
+      "￥99",
+      "150Hz",
+      "250Hz",
+      "500Hz",
+      "50Hz",
+      "actual",
+      "adjustments",
+      "aggressive",
+      "aux",
+      "basic",
+      "blackbox",
+      "BMI270",
+      "camera",
+      "camera_control",
+      "cinematic",
+      "clear",
+      "control",
+      "default",
+      "defaults",
+      "disable",
+      "DJI",
+      "dual",
+      "ELRS",
+      "express",
+      "FC",
+      "feedforward",
+      "ff",
+      "filter",
+      "filters",
+      "freestyle",
+      "freestyle_HD",
+      "frsky",
+      "GPS",
+      "gyro",
+      "gyros",
+      "gyroscope",
+      "hd",
+      "HD_freestyle",
+      "ICM20689",
+      "jitter",
+      "launch",
+      "launch_mode",
+      "leds",
+      "link",
+      "log",
+      "logging",
+      "mode",
+      "modes",
+      "MPU6000",
+      "MultiGP",
+      "names",
+      "OSD",
+      "pid",
+      "profile",
+      "race",
+      "racing",
+      "rates",
+      "rc",
+      "rc link",
+      "rc smoothing",
+      "rc_link",
+      "rc_smoothing",
+      "reset",
+      "reset statistics",
+      "RPM",
+      "sbus",
+      "SBUS fast",
+      "settings",
+      "smooth",
+      "smoothing",
+      "stats",
+      "sugarK",
+      "switch",
+      "target",
+      "transition",
+      "transmitter",
+      "tune",
+      "vanover",
+      "vtx",
+      "vtxtable"
+    ]
+  },
+  "presets": [
+    {
+      "fullPath": "presets/4.3/filters/BMI270.txt",
+      "hash": "af69e3c94ef3dcdd2fca5906292a0dbcf4e4ac1cf74a35860d379cd9e5436c4f",
+      "title": "4.3 Filter settings for BMI270 gyroscope",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "BMI270",
+        "filter",
+        "filters",
+        "gyroscope",
+        "gyro",
+        "gyros",
+        "settings",
+        "RPM"
+      ],
+      "author": "DusKing1 (Hugo Chiang), Pitronic",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/filters/BMI270_dual.txt",
+      "hash": "9a33f16483824bd26cabd1ffc2004f2fbf480cd981b4495340987c1a674e1e93",
+      "title": "4.3 Filter settings for dual BMI270 gyroscope",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "BMI270",
+        "filter",
+        "filters",
+        "dual",
+        "gyroscope",
+        "gyro",
+        "gyros",
+        "settings",
+        "RPM"
+      ],
+      "author": "DusKing1 (Hugo Chiang), Pitronic",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/filters/defaults.txt",
+      "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
+      "title": "Default 4.3 Filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "filter",
+        "filters",
+        "reset"
+      ],
+      "author": "Betaflight",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.3/leds/defaults.txt",
+      "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
+      "title": "Default 4.3 LED settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "LEDS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "leds"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/modes/defaults.txt",
+      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
+      "title": "Default 4.3 Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/defaults.txt",
+      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
+      "title": "Default 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/blackbox_disable.txt",
+      "hash": "71fc4b4cc44366fbbd91ad1aaf882cddd103fae91c4230988a5ebbb67b6bac5d",
+      "title": "4.3 Blackbox disable settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "blackbox",
+        "logging",
+        "log",
+        "disable",
+        "sugarK"
+      ],
+      "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_blackbox.txt",
+      "hash": "30dc088a9a24dbbbea774d4d23eb29be85da9f4a78844e23e8b4ae7ff49bd090",
+      "title": "Reset 4.3 Blackbox settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "blackbox",
+        "logging",
+        "log"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_camera_control.txt",
+      "hash": "837147e19b29bed6e3d6ab21d7d9bd291f8b38f9a378bd9b2ba075be7275fb0a",
+      "title": "Reset Camera Control settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "names",
+        "camera",
+        "control",
+        "camera_control"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_gps.txt",
+      "hash": "08a6638077cc4246ea23e7bfbb9d4759b31c0243a0f326b7379270039bd3a773",
+      "title": "Reset GPS settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "GPS"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_launch_mode.txt",
+      "hash": "e4a11824ea2e2426160e68a161ffc15ecb2f6d2436aeb84d76967c86f11ed491",
+      "title": "Reset Launch Mode settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "names",
+        "launch",
+        "launch_mode"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_names.txt",
+      "hash": "84a26fc8b78aefb8e4a9b0c01684ea8d207b35d0332edc3118885d60854a18c9",
+      "title": "Reset 4.3 Names",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "names",
+        "profile"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_servo.txt",
+      "hash": "4b54c73d5472a403fc0f15ebcef2951ada94a5b5ecd5111c31e7f1ee494d00ec",
+      "title": "Reset 4.3 Stats",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset statistics",
+        "stats"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/reset_stats.txt",
+      "hash": "557798e6885b64e7f3a238fc9d22ae3c61300b3d977c113ef14a4d74f38f0a84",
+      "title": "Reset 4.3 Stats",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset statistics",
+        "stats"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rates/defaults.txt",
+      "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
+      "title": "Default rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "rates",
+        "actual"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rates/Vanover.txt",
+      "hash": "a967f62ea2403b1cae5036cdc2e08e5964d4722640e7578048b95ab356658cc6",
+      "title": "Vanover racing/freestyle rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "race",
+        "vanover",
+        "rates",
+        "MultiGP",
+        "freestyle"
+      ],
+      "author": "Alex Vanover",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/defaults.txt",
+      "hash": "3b9253542588503388283bfc477a78e9956d9700f0f999fb8b0f749a61d7491a",
+      "title": "Reset RC link feedforward related settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "rc link",
+        "rc_link",
+        "feedforward",
+        "ff"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/DJI_Normal.txt",
+      "hash": "502da7e4901758251bc6e239d5a48a5a1e2e8b8ff108092040948a2a0d7a5ab4",
+      "title": "DJI Normal",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "DJI",
+        "rc",
+        "link",
+        "transmitter"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/DJI_SBUS_Fast.txt",
+      "hash": "8903a50237bdb9b735effce19ae351f4dc1709315f572a2620c198e600035302",
+      "title": "DJI SBUS FAST",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "DJI",
+        "rc",
+        "link",
+        "SBUS fast"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/elrs_150hz.txt",
+      "hash": "9fe893e8b750806bec7fca1379e7114543061d89671fbd4bf1cb3b481fac46f7",
+      "title": "ExpressLRS 150Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "ELRS",
+        "rc",
+        "link",
+        "rc_link",
+        "150Hz",
+        "express"
+      ],
+      "author": "ctzsnooze",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
+      "hash": "9ea96d8415aed78bb70958ad47717a777b1a92e8f32db1451aec4576e3bab7f4",
+      "title": "ExpressLRS 250Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "ELRS",
+        "rc",
+        "link",
+        "250Hz",
+        "express"
+      ],
+      "author": "ctzsnooze",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/elrs_500hz.txt",
+      "hash": "397a1636c61b839f0b8dc82e1e6722eb73e8ac2f79cc2ed5e4d97539552845ab",
+      "title": "ExpressLRS 500Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "ELRS",
+        "rc",
+        "link",
+        "500Hz",
+        "express"
+      ],
+      "author": "ctzsnooze",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/elrs_50hz.txt",
+      "hash": "6ac4a3407584f91d6e5c86eef383c6e542ffd0536f2fd79d2b1a5ce4d7f16549",
+      "title": "ExpressLRS 50Hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "ELRS",
+        "rc",
+        "link",
+        "rc_link",
+        "50Hz",
+        "express"
+      ],
+      "author": "ctzsnooze",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/frsky_sbus.txt",
+      "hash": "c8eea0ae2ea506b7a4ab144c4d4dbbcdaa8d29e68814a7823bbfc66074fa58f7",
+      "title": "FrSky Sbus",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "frsky",
+        "sbus",
+        "rc",
+        "link"
+      ],
+      "author": "ctzsnooze",
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/reset_to_defaults.txt",
+      "hash": "8b88664102911f576820ad482c5680a61e1c3c0065df7be544d84ebeefe31362",
+      "title": "Reset ALL RC link related settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "rc link",
+        "rc_link"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/cinematic.txt",
+      "hash": "0205ecd295a55a87c9118042a7cf0bdbf750393b3493009d38e566206c8672be",
+      "title": "Cinematic RC smoothing",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_SMOOTHING",
+      "status": "OFFICIAL",
+      "keywords": [
+        "cinematic",
+        "rc",
+        "smoothing",
+        "rc_smoothing",
+        "jitter",
+        "transition",
+        "hd"
+      ],
+      "author": "ctzsnooze",
+      "priority": 100000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
+      "hash": "c91b7b93cf4a33a15d606a827e983f67441ac78a9b9a11f8ecfb36d772d62739",
+      "title": "Default 4.3 RC smoothing settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_SMOOTHING",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "rc smoothing",
+        "rc_smoothing"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/freestyle.txt",
+      "hash": "ca95f3a5f58913253ba1dbb57c4d0392043d4769226efb94f7140528303a6c6c",
+      "title": "Freestyle RC smoothing",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_SMOOTHING",
+      "status": "OFFICIAL",
+      "keywords": [
+        "freestyle",
+        "rc",
+        "smooth",
+        "smoothing",
+        "rc_smoothing",
+        "jitter"
+      ],
+      "author": "ctzsnooze",
+      "priority": 100000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/hd_freestyle.txt",
+      "hash": "ddeacc0ac0f495d1877e751eaf3f979583be7de308dc2f1797976b1d77c66d50",
+      "title": "Freestyle HD RC smoothing",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_SMOOTHING",
+      "status": "OFFICIAL",
+      "keywords": [
+        "freestyle",
+        "rc",
+        "smooth",
+        "HD",
+        "freestyle_HD",
+        "HD_freestyle",
+        "smoothing",
+        "rc_smoothing",
+        "jitter"
+      ],
+      "author": "ctzsnooze",
+      "priority": 100000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/race.txt",
+      "hash": "390abab514bab1640dc3524b24f503f24cddc7e32aaf8c2a15c5fcef620775cc",
+      "title": "Race RC smoothing",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_SMOOTHING",
+      "status": "OFFICIAL",
+      "keywords": [
+        "aggressive",
+        "rc",
+        "smoothing",
+        "race",
+        "rc_smoothing",
+        "jitter"
+      ],
+      "author": "ctzsnooze",
+      "priority": 100000000
+    },
+    {
+      "fullPath": "presets/4.3/target/NeutronRCF407.txt",
+      "hash": "11a85d20f328bf0e30528e34c6db76298507e8c3fd09a9212f1a05deac780495",
+      "title": "NERC-F407 target config",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TARGET",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "￥99",
+        "￥109",
+        "ICM20689",
+        "MPU6000",
+        "BMI270",
+        "FC",
+        "target"
+      ],
+      "author": "NeutronRC, DusKing1 (Hugo Chiang)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/tune/defaults.txt",
+      "hash": "a34613c8541c3bf5611d5d3596ece890b902fd8d2378e7f6a03b60a59b61230b",
+      "title": "Tune defaults for Basic 4.3 TUNES",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/vtx/defaults.txt",
+      "hash": "f771542d93f15f993d39d97f9004ede104ba7dfebff45f68863aa25f30275388",
+      "title": "Default 4.3 VTX settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx"
+      ],
+      "author": "Betaflight",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
+      "hash": "ca7751007ea115e4aef9cfc8051832205100ab4d0be45b9694d506f193cdb1d6",
+      "title": "Default 4.3 VTX table settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx",
+        "vtxtable"
+      ],
+      "author": "Betaflight",
+      "priority": 1000000
+    }
+  ]
+}
