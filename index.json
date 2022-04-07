@@ -825,7 +825,7 @@
     },
     {
       "fullPath": "presets/4.3/target/NeutronRCF407.txt",
-      "hash": "bfbf8dabb5c42de6362221971fd9f0eddf1b73dce57fb323c4aa7aa459fc8942",
+      "hash": "ffdee38274fffd1ccb3e574191d575686c45cf1381666f59b85d2c8380415234",
       "title": "NERC-F407 target config",
       "firmware_version": [
         "4.3"
@@ -846,7 +846,7 @@
     },
     {
       "fullPath": "presets/4.3/target/NeutronRCF7AIO.txt",
-      "hash": "f22be2a3596678c03d28e5f4d5e27835bfd15ccf6ac7548279cbf3695091475d",
+      "hash": "b03156fa59a58cef1d9bdbfaa946ce3d708886555a3fee971f7f38a8539739d0",
       "title": "NERC-F7AIO target config",
       "firmware_version": [
         "4.3"
@@ -867,7 +867,7 @@
     },
     {
       "fullPath": "presets/4.3/target/NeutronRCG4AIO.txt",
-      "hash": "918d68c8cbb54d4bd8290d241e7a9dde48f266bbe46ed12833a6e9e6d5f188b0",
+      "hash": "c06c2ecc66fb3353709401a02a292057750036821e021ca2e66c8b99c0787f8c",
       "title": "NERC-G4AIO target config",
       "firmware_version": [
         "4.3"
@@ -888,7 +888,7 @@
     },
     {
       "fullPath": "presets/4.3/target/NeutronRCH7BT.txt",
-      "hash": "ad8f76dcfaf6fee27b0022d42fa68ca82e9b449db7dbf2d49d606aaf5c96dae1",
+      "hash": "a2d58738454bf069581ff625ffd3016a4fca1ed80384b6c89cd1599a0f503b2b",
       "title": "NERC-H7BT target config",
       "firmware_version": [
         "4.3"
