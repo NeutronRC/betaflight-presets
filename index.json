@@ -165,9 +165,11 @@
       "250Hz",
       "500Hz",
       "50Hz",
+      "5G",
       "actual",
       "adjustments",
       "aggressive",
+      "AIO",
       "aux",
       "basic",
       "blackbox",
@@ -193,6 +195,7 @@
       "freestyle",
       "freestyle_HD",
       "frsky",
+      "gold",
       "GPS",
       "gyro",
       "gyros",
@@ -247,7 +250,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/filters/BMI270.txt",
-      "hash": "3290285e13af896aa36f43cb4a860dc7c870f8c336cd96d69bad7178af4f38ed",
+      "hash": "02fc3aa51c339c1915eb4e6e26dc657c38b31e7bbc080e469a8a14ecc77827f0",
       "title": "4.3 Filter settings for BMI270 gyroscope",
       "firmware_version": [
         "4.3"
@@ -269,7 +272,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/BMI270_dual.txt",
-      "hash": "f22294f9d45acb83655de8647cf5d0a3f386f98670271a4ab6ab39da72dbdcac",
+      "hash": "9e93122e63704e5a28ec14e3121ac991e735c030439f5b9c089b7beacd22eb41",
       "title": "4.3 Filter settings for dual BMI270 gyroscope",
       "firmware_version": [
         "4.3"
@@ -832,6 +835,48 @@
       "keywords": [
         "￥99",
         "￥109",
+        "ICM20689",
+        "MPU6000",
+        "BMI270",
+        "FC",
+        "target"
+      ],
+      "author": "NeutronRC, DusKing1 (Hugo Chiang)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/target/NeutronRCF7AIO.txt",
+      "hash": "f22be2a3596678c03d28e5f4d5e27835bfd15ccf6ac7548279cbf3695091475d",
+      "title": "NERC-F7AIO target config",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TARGET",
+      "status": "OFFICIAL",
+      "keywords": [
+        "AIO",
+        "gold",
+        "ICM20689",
+        "MPU6000",
+        "BMI270",
+        "FC",
+        "target"
+      ],
+      "author": "NeutronRC, DusKing1 (Hugo Chiang)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/target/NeutronRCG4AIO.txt",
+      "hash": "918d68c8cbb54d4bd8290d241e7a9dde48f266bbe46ed12833a6e9e6d5f188b0",
+      "title": "NERC-G4AIO target config",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TARGET",
+      "status": "OFFICIAL",
+      "keywords": [
+        "AIO",
+        "5G",
         "ICM20689",
         "MPU6000",
         "BMI270",

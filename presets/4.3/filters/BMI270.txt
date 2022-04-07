@@ -13,6 +13,7 @@
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
+set gyro_hardware_lpf = OPTION_2
 set gyro_lpf2_type = PT3
 set gyro_lpf2_static_hz = 150
 set pid_process_denom = 1
